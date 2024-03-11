@@ -469,6 +469,25 @@
 				"inputs": [
 					{
 						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "hasWithdrawn",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
 						"name": "to",
 						"type": "address"
 					},
@@ -666,6 +685,13 @@
 					}
 				],
 				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdrawFreeTokens",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -1037,11 +1063,11 @@
 			]
 		},
 		"contracts/ZtachiToken.sol": {
-			"keccak256": "0x4a228aa23bc99430ebe6713803524cb2b7f6a15c4d50fd485b5d86f2c00ce4a5",
+			"keccak256": "0x952745c79d2ad5491aca0021b9d8580d97327b7f11ad52b0cbde4136f01f3f66",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4e34a43e5d4f46ebed9a016a2c229fe7a41aa2357eac8fe666cd654eadfcaa3b",
-				"dweb:/ipfs/Qmc4CUnepTN3og9c67kBMC2jekccJnjcF3N6zUaDxZgD4a"
+				"bzz-raw://a67ca6e67e3704a77ed1fe6168b0b743cf692dfaef3f6e95d53de212dc407356",
+				"dweb:/ipfs/QmaFu4ZZVMggHZdkY3ohY5gLaY6rt6HZJK3jPQQgJVrXCh"
 			]
 		}
 	},
